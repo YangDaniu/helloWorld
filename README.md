@@ -1,10 +1,1 @@
-helloWorld
-==========
-
-First test
-==========
-next
-==========
-
-啊打发似的
-发射点发射点发
+https://nshen.net/article/2015-11-20/vscode/    vscode环境配置
