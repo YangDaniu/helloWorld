@@ -10,3 +10,6 @@ https://nshen.net/article/2015-11-20/vscode/    vscode环境配置
 var killId = setTimeout(function() {
   for (var i = killId; i > 0; i--) clearInterval(i)
 }, 3000);
+
+
+https://www.scootersoftware.com/download.php?zz=user_translations  下载东西
