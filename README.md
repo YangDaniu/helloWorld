@@ -15,3 +15,5 @@ var killId = setTimeout(function() {
 https://www.scootersoftware.com/download.php?zz=user_translations  下载东西
 
 WinMTR网络状态探测
+
+https://www.cmd5.com/ md5解析
