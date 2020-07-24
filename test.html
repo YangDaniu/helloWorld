@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://operate.imtt.qq.com/operate/4.f3b049b350e24dd26c09.css">
+</head>
+<body>
+    <div id="root"><div><div class="modal-container"><div class="modal-bg"></div><div class="center-layout"><div class="animate-wrapper"><div class="main-pic-container"><img class="main-pic" src="http://operate.imtt.qq.com/operate/client/component/collectCard/static/testCarde13b4eb6f0832a6880d8b1a9dda2f846.png"><div class="cover-1" style="transform: translate(0px, -36px);"></div></div><button class="btn btn-320">分享</button></div></div><div class="close-btn" style="background-image: url(http://operate.imtt.qq.com/operate/client/component/collectCard/static/close_btn224467231053603e69e46148cc50a9b7.png);"></div></div></div></div>
+    <script>
+        var c = document.querySelector('.main-pic-container')
+        var c1 = document.querySelector('.cover-1')
+        window.addEventListener("deviceorientation", (event) => {
+        const { alpha, beta, gamma} = event
+        console.log(alpha, beta, gamma)
+
+        c.style.transform = `rotateX(${0.4 * (beta - 90)}deg) rotateY(${gamma}deg)`
+        c1.style.transform = `translate(${0.4 * (gamma)}px, ${0.4 * (beta - 90)}px)`
+        // console.log(rotate3d(event))
+
+        // this.setState({
+        //   style: {
+        //     transform: rotate3d(event)
+        //   }
+        // })
+        
+      }, true);
+    </script>
+</body>
+</html>
