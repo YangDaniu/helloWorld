@@ -19,3 +19,4 @@ WinMTR网络状态探测
 https://www.cmd5.com/ md5解析
 
 const reg = /^[\u4e00-\u9fa5 -~]+$/ //只能输入中文英文数字和英文符号
+const reg = /\u3002\uff1b\uff0c\uff1a\u201c\u201d\uff08\uff09\u3001\uff1f\u300a\u300b/ //中文标点
