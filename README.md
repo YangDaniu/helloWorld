@@ -17,3 +17,5 @@ https://www.scootersoftware.com/download.php?zz=user_translations  下载东西
 WinMTR网络状态探测
 
 https://www.cmd5.com/ md5解析
+
+const reg = /^[\u4e00-\u9fa5 -~]+$/ //只能输入中文英文数字和英文符号
